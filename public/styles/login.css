@@ -224,64 +224,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: none;
-    width: 93%;
-    margin: 15px 3.5% 0 3.5%;
-}
-
-.footer > h2{
-    color: #FFFFFF;
-    font-size: 6vw;
-    text-align: center;
-}
-
-.footer_redes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-self: center;
-    margin: 4vw;
-}
-
-.facebook{
-    display: flex;
-    justify-content: center;
-}
-
-.facebook > img{ 
-    width: 50%;
-}
-
-.facebook > img:hover{
-    background: #395DA7;
-    border-radius: 50%;
-}
-
-.instagram{
-    display: flex;
-    justify-content: center;
-}
-
-.instagram > img{
-    width: 50%;
-}
-
-.instagram > img:hover{
-    background: #ff1111;
-    border-radius: 50%;
-}
-
-.twitter{
-    display: flex;
-    justify-content: center;
-}
-
-.twitter > img{ 
-    width: 50%;
-}
-
-.twitter > img:hover{
-    background: #395DA7;
-    border-radius: 50%;
+    width: 100%;
+    margin: 15px 0 10px 0;
 }
 
 .footer > h4{
@@ -289,3 +233,4 @@ body{
     font-size: 2.5vw;
     text-align: center;
 }
+

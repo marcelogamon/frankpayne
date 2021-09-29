@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles/global.css">
+    <link rel="stylesheet" href="../public/styles/cadastro.css">
+    <link rel="stylesheet" href="../public/styles/header.css">
+    <title>Frank Payne</title>
+</head>
+
+<!--Inicio do header-->
+    
+<div class="header">
+    <div id="header_fixo">
+        <div class="header_topo">
+            <div class="menu">
+                <img src="../public/img/menu.svg">
+            </div>
+            <div class="titulo">
+                <img src="../public/img/titulo.png">
+                <h2>Marcelo Gamón</h2>
+            </div>
+            <div class="cadastro">
+                <img src="../public/img/login.svg">
+            </div>
+        </div>
+    </div>
+    <div class="header_baixo">
+        <img src="../public/img/img_header_baixo.png">
+    </div>
+</div>
+
+<!--Final do header-->
+
+<body>
+    <div class="cadastro_page">
+
+        <form id="form_box" data-form method="POST">
+            <div class="cadastro_container">
+                <h1>Crie uma conta</h1>
+                <h3>E tenha acesso a conteúdos exclusivos</h3>
+
+                <div class="form">
+                    <div id="cadastro_nomes">
+                        <div id="name">
+                            <label for="name">Nome</label>   
+                            <input class="field_cadastro_nome" data-name="" type="name" placeholder="Frank" name="name" required>
+                        </div>
+                        <div id="birth">
+                            <label for="birth">Data de Nasc.</label>   
+                            <input class="field_cadastro_nascimento" data-birth="" type="birth" placeholder="01/01/2000" name="birth" required>
+                        </div>
+                    </div>
+                    
+                    <div id="lastName">
+                        <label for="lastName">Sobrenome</label>   
+                        <input class="field_cadastro_sobrenome" data-lastName="" type="lastName" placeholder="Payne" name="lastName" required>
+                    </div>
+
+                    <div id="telefone_completo">
+                        <div id="dddPhone">
+                            <label for="dddPhone">DDD</label>   
+                            <input class="field_cadastro_ddd" data-dddPhone="" type="text" placeholder="XX" name="dddPhone">
+                        </div>
+                        <div id="tel">
+                            <label for="tel">Telefone</label>   
+                            <input class="field_cadastro_telefone" data-tel="" type="tel" placeholder="00000-0000" name="tel">
+                        </div>
+                    </div>
+
+                    <div id="email">
+                        <label for="email">Email</label>   
+                        <input class="field_cadastro_email" data-email="" type="email" placeholder="contato@frankpayne.com.br" name="email" required autocomplete="email">
+                    </div>
+                    
+                    <div id="password">
+                        <label for="password">Senha</label>   
+                        <input class="field_cadastro_senha" data-password type="password" name="password" placeholder="********" required>
+                    </div>
+                </div>
+
+                <div class="btn_cadastro">
+                    <button class="cadastro_submit" data-button="" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+
+<footer>
+<!--Inicio do footer--> 
+<div class="footer">
+    <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados. </h4>
+</div>
+    <!--Final do footer-->
+</footer>
+
+</html>
