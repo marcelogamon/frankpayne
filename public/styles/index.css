@@ -1,0 +1,452 @@
+body{
+    background: #020406;
+}
+
+.bem-vindos{
+    display: flex;
+    flex-direction: row;
+    background-color: #132634;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.bv_cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-self: center;
+    align-items: center;
+}
+
+.bv_cadastro > img{
+    width: 15vw;
+}
+
+.bv_cadastro > h3{
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+
+}
+
+.bv_texto{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    padding: 2vw 6vw 3vw 0;
+}
+
+.bv_texto > h1{
+    color: #BBA065;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+
+}
+
+.bv_texto > h2{
+    color: #FFFFFF;
+    font-size: 3.6vw;
+    text-align: center;
+}
+
+.livros{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    width: 93%;
+    margin: 15px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+.livro1_img > img{
+    width: 100%;
+}
+
+.livro1_info > h1{
+    color: #FFFFFF;
+    font-size: 3.4vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.livro1_info > p{
+    color: #FFFFFF;
+    font-size: 3vw;
+    text-align: justify;
+    padding: 10px;
+}
+
+.livro1_saiba_mais{
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+}
+
+.personagens{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    width: 93%;
+    margin: 15px 3.5% 0 3.5%;
+}
+
+.pers_info{
+
+    padding: 10px;
+}
+
+.pers_info > h2{
+    color: #FFFFFF;
+    font-size: 4.2vw;
+    padding-bottom: 5px;
+}
+
+.pers_info > p{
+    color: #FFFFFF;
+    font-size: 3vw;
+    padding-bottom: 5px;
+}
+
+.pers_info > span{
+    color: #FFFFFF;
+    font-size: 3.5vw;
+}
+
+.pers_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#pFrank{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1% 5px 2%
+}
+#pFrank > img{
+    width: 100%;
+}
+
+#pBarbara{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pBarbara > img{
+    width: 100%;
+}
+
+#pWalter{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pWalter > img{
+    width: 100%;
+}
+
+#pMark{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pMark > img{
+    width: 100%;
+}
+
+#pEmily{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 2% 5px 1%
+}
+#pEmily > img{
+    width: 100%;
+}
+
+#pJason{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1% 5px 2%
+}
+#pJason > img{
+    width: 100%;
+}
+
+#pThomas{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pThomas > img{
+    width: 100%;
+}
+
+#pGeneral{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pGeneral > img{
+    width: 100%;
+}
+
+#pErik{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pErik > img{
+    width: 100%;
+}
+
+#pPeixomem{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 2% 5px 1%
+}
+#pPeixomem > img{
+    width: 100%;
+}
+
+#pAquanator{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1% 5px 2%
+}
+#pAquanator > img{
+    width: 100%;
+}
+
+#pArasgain{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pArasgain > img{
+    width: 100%;
+}
+
+#pLuiz{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pLuiz > img{
+    width: 100%;
+}
+
+#pCadassi{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pCadassi > img{
+    width: 100%;
+}
+
+#pOliver{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 2% 5px 1%
+}
+#pOliver > img{
+    width: 100%;
+}
+
+#pDouglas{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1% 5px 2%
+}
+#pDouglas > img{
+    width: 100%;
+}
+
+#pElizabeth{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pElizabeth > img{
+    width: 100%;
+}
+
+#pPedro{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pPedro > img{
+    width: 100%;
+}
+
+#pRose{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pRose > img{
+    width: 100%;
+}
+
+#pHugodzilla{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 2% 5px 1%
+}
+#pHugodzilla > img{
+    width: 100%;
+}
+
+#pMontanha{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1% 5px 2%
+}
+#pMontanha > img{
+    width: 100%;
+}
+
+#pArtmeck{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pArtmeck > img{
+    width: 100%;
+}
+
+#pBolduf{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pBolduf > img{
+    width: 100%;
+}
+
+#pDevorador{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 1%
+}
+#pDevorador > img{
+    width: 100%;
+}
+
+#pGrimlock{
+    display: flex;
+    flex-direction: column;
+    width: 17.6%;
+    padding: 5px 2% 5px 1%
+}
+#pGrimlock > img{
+    width: 100%;
+}
+
+#pFrank, #pBarbara, #pWalter, #pMark, #pEmily, #pJason, #pThomas, #pGeneral, #pErik, #pPeixomem, #pAquanator, #pArasgain, #pLuiz, #pCadassi, #pOliver, #pDouglas, #pElizabeth, #pPedro, #pRose, #pHugodzilla, #pMontanha, #pArtmeck, #pBolduf, #pGrimlock, #pDevorador > h3{
+    color: #FFFFFF;
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 93%;
+    margin: 15px 3.5% 0 3.5%;
+}
+
+.footer > h2{
+    color: #FFFFFF;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.footer_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 4vw;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+}
+
+.facebook > img{ 
+    width: 50%;
+}
+
+.facebook > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram > img{
+    width: 50%;
+}
+
+.instagram > img:hover{
+    background: #ff1111;
+    border-radius: 50%;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter > img{ 
+    width: 50%;
+}
+
+.twitter > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.footer > h4{
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    text-align: center;
+}

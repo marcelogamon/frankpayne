@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles/global.css">
+    <link rel="stylesheet" href="../public/styles/login.css">
+    <link rel="stylesheet" href="../public/styles/header.css">
+    <title>Frank Payne</title>
+</head>
+
+<!--Inicio do header-->
+    
+<div class="header">
+    <div id="header_fixo">
+        <div class="header_topo">
+            <div class="menu">
+                <img src="../public/img/menu.svg">
+            </div>
+            <div class="titulo">
+                <img src="../public/img/titulo.png">
+                <h2>Marcelo Gamón</h2>
+            </div>
+            <div class="login">
+                <img src="../public/img/Login.svg">
+            </div>
+        </div>
+    </div>
+    <div class="header_baixo">
+        <img src="../public/img/img_header_baixo.png">
+    </div>
+</div>
+
+<!--Final do header-->
+
+<body>
+    <div class="login_page">
+
+        <form id="form_box" data-form method="POST">
+            <div class="login_container">
+                <h1>Login</h1>
+              <!--  <%if(invalidData){%>
+                    <p class="error">Dados inválidos</p>
+                  <%}%> -->
+                <div class="form">
+                    <div class="input_login_email">
+                        <img id="input_img_email" src="../public/img/mail.png">
+                        <input class="field_login_email" data-email="" type="email" placeholder="Email" name="email" required autocomplete="email">
+                    </div>
+                    <div class="input_login_senha">
+                        <img id="input_img_senha" src="../public/img/lock.png">
+                        <input class="field_login_senha" data-password type="password" name="password" placeholder="Senha" required>
+                    </div>
+                </div>
+
+                <label class="checkbox">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark">Mantenha-me conectado</span>
+                </label>
+
+                <div class="btn_login">
+                    <button class="login_submit" data-button="" type="submit">Conectar</button>
+                </div>
+                
+                <div class="border-separator">
+                    <div class="conectByRede_texto">
+                        <h3>OU</h3>
+                    </div>
+                    <div class="conectByRede">
+                        <img id="img_google" src="../public/img/google.svg">
+                        <img id="img_facebook" src="../public/img/facebook.svg">
+                    </div>
+                </div>        
+                <a class="login_reset" href="#">Esqueceu sua senha? Clique aqui.</a>
+            </div>
+        </form>
+
+
+
+        <div class="cadastro">
+            <h3>Ainda não tem uma conta?</h3>
+            <img src="../public/img/plus_white.png">
+        </div>
+    </div>
+    
+</body>
+
+<footer>
+<!--Inicio do footer--> 
+<div class="footer">
+    <h2>SIGA NOSSAS REDES SOCIAIS</h2>
+    <div class="footer_redes">
+            <a class="facebook" href="http://facebook.com.br"><img src="../public/img/Facebook.png"></a>
+            <a class="instagram" href="http://instagram.com.br"><img src="../public/img/instagram.png"></a>
+            <a class="twitter" href="https://twitter.com/MarceloGamon3"><img src="../public/img/twitter.png"></a>
+    </div>
+    <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados. </h4>
+</div>
+    <!--Final do footer-->
+</footer>
+
+</html>
