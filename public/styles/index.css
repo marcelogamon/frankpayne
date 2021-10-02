@@ -1,13 +1,33 @@
+@media (max-width: 768px) {
+
 body{
     background: #020406;
 }
 
-.bem-vindos{
+.banner_mobile{
+    display: flex;
+    width: 100%;
+    padding-top: 17.4vw;
+}
+
+.banner_mobile > img{
+    width: 100%;
+}
+
+.banner_bemVindo_desktop{
+    display: none;
+}
+
+.bem-vindos_mobile{
     display: flex;
     flex-direction: row;
     background-color: #132634;
     width: 100%;
     margin-top: 15px;
+}
+
+.bem-vindos_desktop{
+    display: none;
 }
 
 .bv_cadastro{
@@ -28,7 +48,6 @@ body{
     font-weight: bold;
     -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
-
 }
 
 .bv_texto{
@@ -47,7 +66,6 @@ body{
     text-align: center;
     -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
-
 }
 
 .bv_texto > h2{
@@ -56,7 +74,7 @@ body{
     text-align: center;
 }
 
-.livros{
+.livros_mobile{
     display: flex;
     flex-direction: column;
     background-color: #132634;
@@ -65,31 +83,39 @@ body{
     justify-content: center;
 }
 
-.livro1_img > img{
+.livro1_img_mobile > img{
     width: 100%;
 }
 
-.livro1_info > h1{
+.livro1_info_mobile > h1{
     color: #FFFFFF;
     font-size: 3.4vw;
     text-align: center;
     padding: 10px;
 }
 
-.livro1_info > p{
+.livro1_info_mobile > p{
     color: #FFFFFF;
     font-size: 3vw;
     text-align: justify;
     padding: 10px;
 }
 
-.livro1_saiba_mais{
+.livro1_saiba_mais_mobile{
     border-radius: 10px;
     height: 40px;
     margin: 10px;
 }
 
-.personagens{
+.livros_desktop{
+    display: none;
+}
+
+.personagens_desktop{
+    display: none;
+}
+
+.personagens_mobile{
     display: flex;
     flex-direction: column;
     background-color: #132634;
@@ -98,7 +124,6 @@ body{
 }
 
 .pers_info{
-
     padding: 10px;
 }
 
@@ -412,6 +437,319 @@ body{
     width: 50%;
 }
 
+.instagram{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram > img{
+    width: 50%;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter > img{ 
+    width: 50%;
+}
+
+.footer > h4{
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) {
+
+body{
+    background: #020406;
+}
+
+.banner_mobile{
+    display: none;
+}
+
+.banner_bemVindo_desktop{
+    display: flex;
+    justify-content: end;
+    background-image: url(../img/img_header_baixo_desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 3vw;
+    padding-bottom: 2vw;
+}
+
+.bemVindoContainer_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(206, 255, 255, 0.139);
+    width: 25vw;
+    margin: 30px 5vw 30px 0;
+}
+
+.bv_cadastro_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-self: center;
+    align-items: center;
+}
+
+.bv_cadastro_desktop > img{
+    width: 5vw;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.bv_cadastro_desktop > h3{
+    color: #BBA065;
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 5px 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.bv_texto_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    padding: 6px 1vw 6px 1vw;
+}
+
+.bv_texto_desktop > h1{
+    color: #BBA065;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.bv_texto_desktop > h2{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.bem-vindos_mobile{
+    display: none;
+}
+
+.livros_desktop{
+    display: flex;
+    flex-direction: row;
+    background-color: #132634;
+    margin: 0 5vw 3vw 5vw;
+    justify-content: center;
+}
+
+.livro1_img_desktop{
+    display: flex;
+    align-self: center;
+    width: 36%;
+}
+
+.livro1_img_desktop > img{
+    width: 100%;
+}
+
+.livro1_info_desktop{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4vw;
+}
+
+.livro1_info_desktop > h1{
+    color: #FFFFFF;
+    font-size: 1.8vw;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livro1_info_desktop > p{
+    color: #c6c6c6;
+    font-size: 1.2vw;
+    text-align: justify;
+    padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livro1_saiba_mais_desktop{
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 9vw;
+    align-self: flex-end;
+    background-color: #c79820 ;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    font-family: 'Alegreya', serif;
+    font-size: 1.6vw;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livro1_saiba_mais_desktop:hover{
+    transition: all 0.3s;
+    background-color: #09a1f9de ;
+}
+
+.livros_mobile{
+    display: none;
+}
+
+.personagens_mobile{
+    display: none;
+}
+
+.personagens_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    margin: 0 5vw 1vw 5vw;
+}
+
+.pers_info_desktop{
+    padding: 10px;
+}
+
+.pers_info_desktop > h2{
+    color: #FFFFFF;
+    font-size: 1.8vw;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.pers_info_desktop > p{
+    color: #c6c6c6;
+    font-size: 1.2vw;
+    text-align: justify;
+    padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.pers_info_desktop > span{
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;   
+}
+
+.pers_img_desktop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4vw;
+    margin-top: 2vw;
+}
+
+.pers_img_desktop h3{
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;  
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.pers_img_desktop img{
+    margin: 3px 0;
+    padding: 0 3vw;
+    width: 10vw;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 93%;
+    margin: 15px 3.5% 0 3.5%;
+}
+
+.footer > h2{
+    color: #FFFFFF;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.footer_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 4vw;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+}
+
+.facebook > img{ 
+    width: 50%;
+}
+
 .facebook > img:hover{
     background: #395DA7;
     border-radius: 50%;
@@ -449,4 +787,6 @@ body{
     color: #FFFFFF;
     font-size: 2.5vw;
     text-align: center;
+}
+
 }
