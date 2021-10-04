@@ -46,8 +46,11 @@ body{
     color: #FFFFFF;
     font-size: 3vw;
     font-weight: bold;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: #000; /* cor da borda */
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 .bv_texto{
@@ -64,14 +67,23 @@ body{
     font-size: 5vw;
     font-weight: bold;
     text-align: center;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: #000; /* cor da borda */
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 .bv_texto > h2{
     color: #FFFFFF;
     font-size: 3.6vw;
     text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
 }
 
 .livros_mobile{
@@ -92,6 +104,12 @@ body{
     font-size: 3.4vw;
     text-align: center;
     padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
 }
 
 .livro1_info_mobile > p{
@@ -99,6 +117,12 @@ body{
     font-size: 3vw;
     text-align: justify;
     padding: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
 }
 
 .livro1_saiba_mais_mobile{
@@ -131,17 +155,32 @@ body{
     color: #FFFFFF;
     font-size: 4.2vw;
     padding-bottom: 5px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 .pers_info > p{
     color: #FFFFFF;
     font-size: 3vw;
     padding-bottom: 5px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 .pers_info > span{
     color: #FFFFFF;
     font-size: 3.5vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 .pers_img{
@@ -404,66 +443,14 @@ body{
     color: #FFFFFF;
     font-size: 2.6vw;
     text-align: center;
-}
-
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color: none;
-    width: 93%;
-    margin: 15px 3.5% 0 3.5%;
-}
-
-.footer > h2{
-    color: #FFFFFF;
-    font-size: 6vw;
-    text-align: center;
-}
-
-.footer_redes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-self: center;
-    margin: 4vw;
-}
-
-.facebook{
-    display: flex;
-    justify-content: center;
-}
-
-.facebook > img{ 
-    width: 50%;
-}
-
-.instagram{
-    display: flex;
-    justify-content: center;
-}
-
-.instagram > img{
-    width: 50%;
-}
-
-.twitter{
-    display: flex;
-    justify-content: center;
-}
-
-.twitter > img{ 
-    width: 50%;
-}
-
-.footer > h4{
-    color: #FFFFFF;
-    font-size: 2.5vw;
-    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
 }
-
-
 
 
 
@@ -717,76 +704,6 @@ body{
     padding: 0 3vw;
     width: 10vw;
 
-}
-
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color: none;
-    width: 93%;
-    margin: 15px 3.5% 0 3.5%;
-}
-
-.footer > h2{
-    color: #FFFFFF;
-    font-size: 6vw;
-    text-align: center;
-}
-
-.footer_redes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-self: center;
-    margin: 4vw;
-}
-
-.facebook{
-    display: flex;
-    justify-content: center;
-}
-
-.facebook > img{ 
-    width: 50%;
-}
-
-.facebook > img:hover{
-    background: #395DA7;
-    border-radius: 50%;
-}
-
-.instagram{
-    display: flex;
-    justify-content: center;
-}
-
-.instagram > img{
-    width: 50%;
-}
-
-.instagram > img:hover{
-    background: #ff1111;
-    border-radius: 50%;
-}
-
-.twitter{
-    display: flex;
-    justify-content: center;
-}
-
-.twitter > img{ 
-    width: 50%;
-}
-
-.twitter > img:hover{
-    background: #395DA7;
-    border-radius: 50%;
-}
-
-.footer > h4{
-    color: #FFFFFF;
-    font-size: 2.5vw;
-    text-align: center;
 }
 
 }
