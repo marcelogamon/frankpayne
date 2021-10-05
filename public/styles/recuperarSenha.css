@@ -1,10 +1,10 @@
-@media (max-width: 768px) {
+/*Inicio do Mobile*/
 
 body{
     background: #020406;
 }
 
-.recupera_page{
+.recupera_page_mobile{
     display: flex;
     flex-direction: column;
     background-color: #132634;
@@ -14,13 +14,13 @@ body{
     justify-content: center;
 }
 
-.recupera_container{
+.recupera_container_mobile{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 }
 
-.recupera_container > h1{
+.recupera_container_mobile > h1{
     color: #FFFFFF;
     font-size: 6vw;
     font-weight: bold;
@@ -29,7 +29,7 @@ body{
     text-shadow: 0px 0px 21px rgb(0, 0, 0);
 }
 
-.recupera_container > h3{
+.recupera_container_mobile > h3{
     color: #FFFFFF;
     font-size: 3vw;
     font-weight:lighter;
@@ -39,13 +39,13 @@ body{
     text-shadow: 0px 0px 21px rgb(0, 0, 0);
 }
 
-#form_box{
+#form_box_mobile{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.form{
+.form_mobile{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@ body{
     font-size: 3.8vw;
 }
 
-#email{
+#email_mobile{
     display: flex;
     flex-direction: column;
     width: 93%;
@@ -61,24 +61,20 @@ body{
     align-self: center;
 }
 
-.field_recupera_email{
+.field_recupera_email_mobile{
     border-radius: 20px;
     height: 27px;
     padding-left: 7px;
 }
 
-.field_recupera_email:hover{
-    border: #BBA065 1px solid;
-    transition:  all 0.3s;
-}
-.btn_recupera{
+.btn_recupera_mobile{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.recupera_submit{
+.recupera_submit_mobile{
     border-radius: 30px;
     background-color: #d4af37 ;
     width: 60%;
@@ -94,29 +90,142 @@ body{
     transition: all 0.3s;
 }
 
-.recupera_submit:hover{
+.recupera_submit_mobile:hover{
     transition: all 0.3s;
     background-color: #f9a109de ;
 }
 
-.footer{
-    position: absolute;
-    background-color: none;
-    width: 100%;
-    margin-bottom: 5px;
-    bottom: 0;
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.recupera_page_mobile{
+    display: none;
 }
 
-.footer > h4{
+.recupera_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/img_login_baixo_desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7.5vw;
+}
+
+.recupera_bloco_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634a1;
+    border-radius: 10px;
+    width: 30%;
+    margin: 3.7vw 0 3.7vw 0;
+    align-self: center;
+}
+
+.recupera_container_desktop{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.recupera_container_desktop > h1{
     color: #FFFFFF;
-    font-size: 2.5vw;
+    font-size: 2vw;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 3px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.recupera_container_desktop > h3{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#form_box_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
+}
+
+#email_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: 30px 0 10px 0;
+    align-self: center;
+}
+
+.field_recupera_email_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 0.6vw;
+    font-size: 1vw;
+}
+
+.btn_recupera_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recupera_submit_desktop{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 40%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-top: 60px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.recupera_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #f9a109de ;
 }
 
 }
+
+/*Final do Desktop*/
