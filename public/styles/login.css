@@ -1,8 +1,15 @@
+/*Inicio do Mobile*/
+
 body{
     background: #020406;
 }
 
-.login_page{
+
+.login_page_desktop{
+    display: none;
+}
+
+.login_page_mobile{
     display: flex;
     flex-direction: column;
     background-color: #132634;
@@ -13,14 +20,14 @@ body{
 }
 
 
-.login_container{
+.login_container_mobile{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 
 }
 
-.login_container > h1{
+.login_container_mobile > h1{
     color: #FFFFFF;
     font-size: 6vw;
     font-weight: bold;
@@ -30,19 +37,19 @@ body{
     text-shadow: 0px 0px 21px rgb(0, 0, 0);
 }
 
-#form_box{
+#form_box_mobile{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.form{
+.form_mobile{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.input_login_email{
+.input_login_email_mobile{
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -53,7 +60,7 @@ body{
     align-self: center;
 }
 
-#input_img_email{
+#input_img_email_mobile{
     display: flex;
     flex-direction: row;
     width: 6vw;
@@ -61,7 +68,7 @@ body{
     margin-left: 3vw;
 }
 
-.field_login_email{
+.field_login_email_mobile{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,7 +79,7 @@ body{
     margin: 10px 15px 10px 15px;
 }
 
-.input_login_senha{
+.input_login_senha_mobile{
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -84,7 +91,7 @@ body{
     margin-top: 20px;
 }
 
-#input_img_senha{
+#input_img_senha_mobile{
     display: flex;
     flex-direction: row;
     width: 8vw;
@@ -92,7 +99,7 @@ body{
     margin-left: 3vw;
 }
 
-.field_login_senha{
+.field_login_senha_mobile{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,36 +110,36 @@ body{
     margin: 10px 15px 10px 15px;
 }
 
-.field_login_email:hover{
+.field_login_email_mobile:hover{
     border: #BBA065 1px solid;
     transition:  all 0.3s;
 }
 
-.field_login_senha:hover{
+.field_login_senha_mobile:hover{
     border: #BBA065 1px solid;
     transition:  all 0.3s;
 }
 
-.checkbox{
+.checkbox_mobile{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
     justify-content: center;
 }
 
-.checkmark{
+.checkmark_mobile{
     color: #FFFFFF;
     font-size: 3.8vw;
     margin-left: 3vw;
 }
 
-.btn_login{
+.btn_login_mobile{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.login_submit{
+.login_submit_mobile{
         border-radius: 30px;
         background-color: #d4af37 ;
         width: 60%;
@@ -150,19 +157,19 @@ body{
         transition: all 0.3s;
 }
 
-.login_submit:hover{
+.login_submit_mobile:hover{
     transition: all 0.3s;
     background-color: #f9a109de ;
 }
 
 
-.border-separator{
+.border-separator_mobile{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.conectByRede_texto{
+.conectByRede_texto_mobile{
     display: flex;
     flex-direction: row;
     border-top: #FFFFFF solid 3px;
@@ -170,27 +177,27 @@ body{
     margin: 20px 10vw 0 10vw;
 }
 
-.conectByRede_texto > h3{
+.conectByRede_texto_mobile > h3{
     color: #ffffff;
     margin-top: 10px;
     font-size: 5vw;
 }
 
-.conectByRede{
+.conectByRede_mobile{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#img_google{
+#img_google_mobile{
     width: 12vw;
 }
 
-#img_facebook{
+#img_facebook_mobile{
     width: 12vw;
 }
 
-.login_reset{
+.login_reset_mobile{
     margin-top: 30px;
     font-size: 4vw;
     color: #ffffff;
@@ -199,35 +206,261 @@ body{
 
 }
 
-.cadastro{
+.cadastro_mobile{
     display: flex;
     flex-direction: column;
     align-items: center;}
 
-.cadastro > h3{
+.cadastro_mobile > h3{
     margin-top: 40px;
     font-size: 5vw;
     color: #f0f0f0;
     text-align: center;
 }
 
-.cadastro > img{
+.cadastro_mobile > img{
     margin: 20px 0 20px 0;
     width: 14vw;
 }
 
+/*Final do Mobile*/
 
-.footer{
+
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.login_page_mobile{
+    display: none;
+}
+
+.login_page_desktop{
     display: flex;
     flex-direction: column;
-    background-color: none;
-    width: 100%;
-    margin: 15px 0 10px 0;
+    background-image: url(../img/img_login_baixo_desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7.6vw;
+
 }
 
-.footer > h4{
+.login_bloco_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634a1;
+    border-radius: 10px;
+    width: 25%;
+    margin: 1vw 0 1vw 0;
+    align-self: center;
+}
+
+
+.login_container_desktop{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.login_container_desktop > h1{
     color: #FFFFFF;
-    font-size: 2.5vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#form_box_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input_login_email_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+    align-self: center;
+}
+
+#input_img_email_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1.6vw;
+}
+
+.field_login_email_desktop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 10px 15px 10px 15px;
+}
+
+.input_login_senha_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#input_img_senha_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+}
+
+.field_login_senha_desktop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 10px 15px 10px 15px;
+}
+
+.checkbox_desktop{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 2vw;
+}
+
+.checkmark_desktop{
+    color: #FFFFFF;
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+
+.btn_login_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login_submit_desktop{
+        border-radius: 30px;
+        background-color: #e9b739 ;
+        width: 40%;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 20px;
+        color: #ffffff;
+        border: 0px;
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 1vw;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-shadow: 
+        -1px -1px 0px #000, 
+        -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;    
+}
+
+.login_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #09a1f9de ;
+}
+
+.border-separator_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conectByRede_texto_desktop{
+    display: flex;
+    flex-direction: row;
+    border-top: #FFFFFF solid 3px;
+    justify-content:center;
+    margin: 20px 5vw 0 5vw;
+}
+
+.conectByRede_texto_desktop > h3{
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 1vw;
+}
+
+.conectByRede_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img_google_desktop{
+    width: 3vw;
+    cursor: pointer;
+}
+
+#img_facebook_desktop{
+    width: 3vw;
+    cursor: pointer;
+}
+
+.login_reset_desktop{
+    margin-top: 20px;
+    font-size: 0.9vw;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cadastro_desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.cadastro_desktop > h3{
+    margin-top: 20px;
+    font-size: 1vw;
+    color: #f0f0f0;
     text-align: center;
 }
+
+.cadastro_desktop > img{
+    margin: 20px 0 20px 0;
+    width: 3vw;
+    cursor: pointer;
+}
+
+}
+
+/*Final do Desktop*/
 

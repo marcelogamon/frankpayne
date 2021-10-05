@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="../public/styles/global.css">
     <link rel="stylesheet" href="../public/styles/login.css">
     <link rel="stylesheet" href="../public/styles/header.css">
+    <link rel="stylesheet" href="../public/styles/footer.css">
     <title>Frank Payne</title>
 </head>
 
-<!--Inicio do header-->
-    
-<div class="header">
+
+
+
+
+<!--Inicio do header mobile-->  
+<div class="header_mobile">
     <div id="header_fixo">
         <div class="header_topo">
             <div class="menu">
@@ -28,67 +32,167 @@
         </div>
     </div>
 </div>
+<!--Final do header mobile-->
 
-<!--Final do header-->
+<!--Inicio do header desktop--> 
+<div class="header_desktop">
+    <div id="header_fixo_desktop">
+        <div class="header_topo_desktop">
+            <div class="titulo_desktop">
+                <img src="../public/img/titulo.png">
+            </div>
+            <div class="header_login_desktop">
+                <button class="header_login_submit_desktop" data-button="" type="submit">Login</button>
+            </div>
+        </div>
+        <div id="nav_desktop">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Marcelo Gamón</a>
+                <a href="#">Livros</a>
+                <a href="#">Personagens</a>
+                <a href="#">Galeria</a>
+                <a href="#">Notícias</a>
+                <a href="#">Contatos</a>
+                <div class="animation start-home"></div>
+            </nav>
+        </div>   
+    </div>
+</div>
+<!--Final do header desktop--> 
+
+
+
+
 
 <body>
-    <div class="login_page">
 
-        <form id="form_box" data-form method="POST">
-            <div class="login_container">
+    <!--Inicio do body_mobile--> 
+
+    <div class="login_page_mobile">
+
+        <form id="form_box_mobile" data-form method="POST">
+            <div class="login_container_mobile">
                 <h1>Login</h1>
               <!--  <%if(invalidData){%>
                     <p class="error">Dados inválidos</p>
                   <%}%> -->
-                <div class="form">
-                    <div class="input_login_email">
-                        <img id="input_img_email" src="../public/img/mail.png">
-                        <input class="field_login_email" data-email="" type="email" placeholder="Email" name="email" required autocomplete="email">
+                <div class="form_mobile">
+                    <div class="input_login_email_mobile">
+                        <img id="input_img_email_mobile" src="../public/img/mail.png">
+                        <input class="field_login_email_mobile" data-email="" type="email" placeholder="Email" name="email" required autocomplete="email">
                     </div>
-                    <div class="input_login_senha">
-                        <img id="input_img_senha" src="../public/img/lock.png">
-                        <input class="field_login_senha" data-password type="password" name="password" placeholder="Senha" required>
+                    <div class="input_login_senha_mobile">
+                        <img id="input_img_senha_mobile" src="../public/img/lock.png">
+                        <input class="field_login_senha_mobile" data-password type="password" name="password" placeholder="Senha" required>
                     </div>
                 </div>
 
-                <label class="checkbox">
+                <label class="checkbox_mobile">
                     <input type="checkbox" checked="checked">
-                    <span class="checkmark">Mantenha-me conectado</span>
+                    <span class="checkmark_mobile">Mantenha-me conectado</span>
                 </label>
 
-                <div class="btn_login">
-                    <button class="login_submit" data-button="" type="submit">Conectar</button>
+                <div class="btn_login_mobile">
+                    <button class="login_submit_mobile" data-button="" type="submit">Conectar</button>
                 </div>
                 
-                <div class="border-separator">
-                    <div class="conectByRede_texto">
+                <div class="border-separator_mobile">
+                    <div class="conectByRede_texto_mobile">
                         <h3>OU</h3>
                     </div>
-                    <div class="conectByRede">
-                        <img id="img_google" src="../public/img/google.svg">
-                        <img id="img_facebook" src="../public/img/facebook.svg">
+                    <div class="conectByRede_mobile">
+                        <img id="img_google_mobile" src="../public/img/google.svg">
+                        <img id="img_facebook_mobile" src="../public/img/facebook.svg">
                     </div>
                 </div>        
-                <a class="login_reset" href="#">Esqueceu sua senha? Clique aqui.</a>
+                <a class="login_reset_mobile" href="#">Esqueceu sua senha? Clique aqui.</a>
             </div>
         </form>
 
-
-
-        <div class="cadastro">
+        <div class="cadastro_mobile">
             <h3>Ainda não tem uma conta?</h3>
             <img src="../public/img/plus_white.png">
         </div>
     </div>
-    
+
+   
+<!--Final do body_mobile--> 
+
+
+
+<!--Inicio do body_desktop--> 
+
+    <div class="login_page_desktop">
+        <div class="login_bloco_desktop">
+
+            <form id="form_box_desktop" data-form method="POST">
+                <div class="login_container_desktop">
+                    <h1>Login</h1>
+                <!--  <%if(invalidData){%>
+                        <p class="error">Dados inválidos</p>
+                    <%}%> -->
+                    <div class="form_desktop">
+                        <div class="input_login_email_desktop">
+                            <img id="input_img_email_desktop" src="../public/img/mail.png">
+                            <input class="field_login_email_desktop" data-email="" type="email" placeholder="Email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="input_login_senha_desktop">
+                            <img id="input_img_senha_desktop" src="../public/img/lock.png">
+                            <input class="field_login_senha_desktop" data-password type="password" name="password" placeholder="Senha" required>
+                        </div>
+                    </div>
+
+                    <label class="checkbox_desktop">
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark_desktop">Mantenha-me conectado</span>
+                    </label>
+
+                    <div class="btn_login_desktop">
+                        <button class="login_submit_desktop" data-button="" type="submit">Conectar</button>
+                    </div>
+                    
+                    <div class="border-separator_desktop">
+                        <div class="conectByRede_texto_desktop">
+                            <h3>OU</h3>
+                        </div>
+                        <div class="conectByRede_desktop">
+                            <img id="img_google_desktop" src="../public/img/google.svg">
+                            <img id="img_facebook_desktop" src="../public/img/facebook.svg">
+                        </div>
+                    </div>        
+                    <a class="login_reset_desktop" href="#">Esqueceu sua senha? Clique aqui.</a>
+                </div>
+            </form>
+
+            <div class="cadastro_desktop">
+                <h3>Ainda não tem uma conta?</h3>
+                <img src="../public/img/plus_white.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Final do body_desktop--> 
+
+
 </body>
 
-<!--Inicio do footer--> 
+
+<!--Inicio do footer_mobile--> 
+
 <footer>
-    <div class="footer">
-        <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados.</h4>
+<div class="footer_mobile">
+    <h2>SIGA NOSSAS REDES SOCIAIS</h2>
+    <div class="footer_redes_mobile">
+            <a class="facebook_mobile" href="http://facebook.com/frankpayne.livros"><img src="../public/img/Facebook.png"></a>
+            <a class="instagram_mobile" href="http://instagram.com/frankpayne.livros"><img src="../public/img/instagram.png"></a>
+            <a class="twitter_mobile" href="https://twitter.com/FrankPayneBR"><img src="../public/img/twitter.png"></a>
     </div>
+    <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados. </h4>
+</div>
+    <!--Final do footer_mobile-->
+
+
 </footer>
-<!--Final do footer-->
 
 </html>
