@@ -1,8 +1,14 @@
+/*Inicio do Mobile*/
+
 body{
     background: #020406;
 }
 
-.acessoExclusivo_page{
+.acessoExclusivo_page_desktop{
+    display: none;
+}
+
+.acessoExclusivo_page_mobile{
     display: flex;
     flex-direction: column;
     background-color: #132634;
@@ -12,30 +18,34 @@ body{
     justify-content: center;
 }
 
-.acessoExclusivo_container{
+.acessoExclusivo_container_mobile{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 }
 
-.acessoExclusivo_container > h3{
+.acessoExclusivo_container_mobile > h3{
     color: #FFFFFF;
     font-size: 4.4vw;
     font-weight:lighter;
     text-align: center;
     margin: 25px 0 20px 0;
     padding: 0 25px;
-    text-shadow: 0px 0px 21px rgb(0, 0, 0);
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
-.btn_acessoExclusivo{
+.btn_acessoExclusivo_mobile{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.acessoExclusivo_submit{
+.acessoExclusivo_submit_mobile{
     border-radius: 30px;
     background-color: #d4af37 ;
     width: 60%;
@@ -49,35 +59,111 @@ body{
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
 }
 
-.acessoExclusivo_submit:hover{
-    transition: all 0.3s;
-    background-color: #f9a109de ;
-}
-
-#cadastrar{
+#cadastrar_mobile{
     width: 14vw;
     align-self: center;
     margin: 15px 0 30px 0;
 }
 
-.footer{
-    position: absolute;
-    background-color: none;
-    width: 100%;
-    margin-bottom: 5px;
-    bottom: 0;
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+
+.acessoExclusivo_page_mobile{
+    display: none;
 }
 
-.footer > h4{
-    color: #FFFFFF;
-    font-size: 2.5vw;
-    text-align: center;
+.acessoExclusivo_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/img_login_baixo_desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7.5vw;
 }
+
+.acessoExclusivo_bloco_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634a1;
+    border-radius: 10px;
+    width: 30%;
+    margin: 5.1vw 0 5.1vw 0;
+    align-self: center;
+}
+
+.acessoExclusivo_container_desktop{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.acessoExclusivo_container_desktop > h3{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 30px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.btn_acessoExclusivo_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.acessoExclusivo_submit_desktop{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 40%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-top: 30px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.acessoExclusivo_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #f9a109de ;
+}
+
+#cadastrar_desktop{
+    width: 4vw;
+    align-self: center;
+    margin: 0px 0 40px 0;
+    cursor: pointer;
+}
+
+}
+
+/*Final do Desktop*/
