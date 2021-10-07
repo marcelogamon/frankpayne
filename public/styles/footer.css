@@ -85,9 +85,9 @@
 .footer_desktop{
     display: flex;
     flex-direction: column;
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0.808);
     width: 93%;
-    margin: 15px 3.5% 0 3.5%;
+    margin: 0 3.5% 0 3.5%;
 }
 
 .footer_desktop > h2{

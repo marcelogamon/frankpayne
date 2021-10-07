@@ -238,11 +238,18 @@ body{
     display: none;
 }
 
+body{
+    background-image: url(../img/img_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
 .livro1_page_desktop{
     display: flex;
     flex-direction: column;
-    background-color: #132634a1;
-    margin: 10vw 3vw 0 3vw;
+    background-color: #132634c2;
+    margin: 10vw 3.5vw 0 3.5vw;
     padding: 2vw;
 }
 
