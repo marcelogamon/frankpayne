@@ -86,8 +86,8 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.808);
-    width: 93%;
-    margin: 0 3.5% 0 3.5%;
+    width: 100%;
+    margin-top: 2vw;
 }
 
 .footer_desktop > h2{
@@ -206,7 +206,7 @@
 
 .footer_desktop > h4{
     color: #FFFFFF;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     text-align: center;
     font-weight: lighter;
     margin-bottom: 10px;
