@@ -1,0 +1,118 @@
+body{
+    background: #020406;
+}
+
+.galeria_page_desktop{
+    display: none;
+}
+
+
+.galeria_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    width: 93%;
+    border-radius: 10px;
+    margin: 75px 3.5% 0 3.5%;
+}
+
+.galeria_info_mobile{
+    padding: 10px;
+}
+
+.galeria_info_mobile > h2{
+    color: #BBA065;
+    font-size: 8.3vw;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.galeria_info_mobile > p{
+    color: #FFFFFF;
+    font-size: 4.3vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 0px 0 20px 0;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+
+
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.galeria_page_mobile{
+    display: none;
+}
+
+body{
+    background-image: url(../img/img_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.galeria_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.699);
+    margin: 10vw 5vw 1vw 5vw;
+}
+
+.galeria_info_desktop{
+    padding: 10px;
+}
+
+.galeria_info_desktop > h2{
+    color: #BBA065;
+    font-size: 3vw;
+    margin: 0 0 1.5vw 0;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.galeria_info_desktop > p{
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 0px 0 1.5vw 0;
+    padding: 0 50px 0 50px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+
+
+}
+
+/*Final do Desktop*/
