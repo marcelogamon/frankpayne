@@ -92,23 +92,25 @@
 
 .footer_desktop > h2{
     color: #FFFFFF;
-    font-size: 2w;
+    font-size: 1.4vw;
     text-align: right;
     font-weight: lighter;
     font-style: normal;
     font-family: 'Alegreya', serif;
-    margin: 2vw 5vw 0 0;
+    margin: 0.5vw 5vw 0 0;
 }
 
 .footer_redes_contatos_desktop{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .footer_contatos_desktop{
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin-right: 2vw;
 }
 
 .footer_email_desktop{
@@ -129,7 +131,7 @@
     width: 1.7vw;
     height: 1.7vw;
     align-self: center;
-    margin: 0 1vw 0 5vw;
+    margin: 0 1vw 0 0;
 }
 
 .footer_tel_desktop{
@@ -150,25 +152,26 @@
     width: 2.5vw;
     height: 2.5vw;
     align-self: center;
-    margin: 2vw 1vw 0 4.6vw;
+    margin: 2vw 1vw 0 0;
 }
 
 .footer_redes_desktop{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-self: center;
-    margin: 3vw;
-    width: 30%;
+    margin-top: 0.5vw;
+    margin-right: 1vw;
 }
 
 .facebook_desktop{
     display: flex;
     justify-content: center;
+    margin: 0 0.6vw;
 }
 
 .facebook_desktop > img{ 
-    width: 50%;
+    height: 4vw;
 }
 
 .facebook_desktop > img:hover{
@@ -179,10 +182,11 @@
 .instagram_desktop{
     display: flex;
     justify-content: center;
+    margin: 0 0.6vw;
 }
 
 .instagram_desktop > img{
-    width: 50%;
+    height: 4vw;
 }
 
 .instagram_desktop > img:hover{
@@ -193,10 +197,11 @@
 .twitter_desktop{
     display: flex;
     justify-content: center;
+    margin: 0 0.6vw;
 }
 
 .twitter_desktop > img{ 
-    width: 50%;
+    height: 4vw;
 }
 
 .twitter_desktop > img:hover{
@@ -206,7 +211,7 @@
 
 .footer_desktop > h4{
     color: #FFFFFF;
-    font-size: 1.1vw;
+    font-size: 1vw;
     text-align: center;
     font-weight: lighter;
     margin-bottom: 10px;

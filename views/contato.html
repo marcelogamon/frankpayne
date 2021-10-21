@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles/global.css">
+    <link rel="stylesheet" href="../public/styles/contato.css">
+    <link rel="stylesheet" href="../public/styles/header.css">
+    <link rel="stylesheet" href="../public/styles/footer.css">
+    <title>Frank Payne</title>
+</head>
+
+<!--Inicio do header mobile-->  
+<div class="header_mobile">
+    <div id="header_fixo">
+        <div class="header_topo">
+            <div class="menu">
+                <img src="../public/img/menu.svg">
+            </div>
+            <div class="titulo">
+                <img src="../public/img/titulo.png">
+                <h2>Marcelo Gamón</h2>
+            </div>
+            <div class="header_login">
+                <button class="header_login_submit" data-button="" type="submit">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Final do header mobile-->
+
+<!--Inicio do header desktop--> 
+<div class="header_desktop">
+    <div id="header_fixo_desktop">
+        <div class="header_topo_desktop">
+            <div class="titulo_desktop">
+                <img src="../public/img/titulo.png">
+            </div>
+            <div class="header_login_desktop">
+                <button class="header_login_submit_desktop" data-button="" type="submit">Login</button>
+            </div>
+        </div>
+        <div id="nav_desktop">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Marcelo Gamón</a>
+                <a href="#">Livros</a>
+                <a href="#">Personagens</a>
+                <a href="#">Galeria</a>
+                <a href="#">Notícias</a>
+                <a href="#">Contatos</a>
+                <div class="animation start-home"></div>
+            </nav>
+        </div>   
+    </div>
+</div>
+<!--Final do header desktop--> 
+
+
+<body>
+
+<!--Inicio do Mobile-->
+
+<div class="contato_page_mobile">
+
+    <div class="contato_container_mobile">
+        <form id="form_box_mobile" data-form method="POST">
+            <div class="contato_container_mobile">
+                <h1>Gostaria de nos mandar uma mensagem?</h1>
+                <img id="img_contato_mobile" src="../public/img/contato2.png">
+                <h3>Utilize o formulário abaixo para enviar seus comentários diretamente para o autor, tirar dúvidas, relatar problemas ou então sugerir melhorias. Ficaremos felizes em falar com você!</h3>
+
+                <div class="form_mobile">
+                    <div id="contato_nomes_mobile">
+                        <div id="name_mobile">
+                            <label for="name">Digite seu Nome</label>   
+                            <input class="field_contato_nome_mobile" data-name="" type="text" placeholder="Frank" name="name" required>
+                        </div>
+                    </div>
+                    
+                    <div id="lastName_mobile">
+                        <label for="lastName">Digite seu Sobrenome</label>   
+                        <input class="field_contato_sobrenome_mobile" data-lastName="" type="text" placeholder="Payne" name="lastName" required>
+                    </div>
+
+                    <div id="email_mobile">
+                        <label for="email">Digite seu Email</label>   
+                        <input class="field_contato_email_mobile" data-email="" type="email" placeholder="contato@frankpayne.com.br" name="email" required autocomplete="email">
+                    </div>
+                    
+                    <div id="mensagem_mobile">
+                        <label for="message">Senha</label>   
+                        <textarea rows="4" cols="50" id="message" name="message" placeholder="Digite aqui sua mensagem"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn_contato_mobile">
+                    <button class="contato_submit_mobile" data-button="" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--Final do Mobile-->
+
+
+<!--Inicio do Desktop-->
+
+<div class="contato_page_desktop">
+
+    <div class="separacao_lados_desktop">
+        <div class="lado_esquerdo_desktop">
+            <img id="img_contato_desktop" src="../public/img/contato2.png">
+        </div>
+        
+        <div class="lado_direito_desktop">
+
+            <form id="form_box_desktop" data-form method="POST">
+                <div class="contato_container_desktop">
+                    <h1>Gostaria de nos mandar uma mensagem?</h1>
+                    <h3>Utilize o formulário abaixo para enviar seus comentários diretamente para o autor, tirar dúvidas, relatar problemas ou então sugerir melhorias. Ficaremos felizes em falar com você!</h3>
+
+                    <div class="form_desktop">
+                        <div id="contato_nomes_desktop">
+                            <div id="name_desktop">
+                                <label for="name">Digite seu Nome</label>   
+                                <input class="field_contato_nome_desktop" data-name="" type="text" placeholder="Frank" name="name" required>
+                            </div>
+                            <div id="lastName_desktop">
+                                <label for="lastName">Digite seu Sobrenome</label>   
+                                <input class="field_contato_sobrenome_desktop" data-lastName="" type="text" placeholder="Payne" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div id="email_desktop">
+                            <label for="email">Email</label>   
+                            <input class="field_contato_email_desktop" data-email="" type="email" placeholder="contato@frankpayne.com.br" name="email" required autocomplete="email">
+                        </div>
+                        
+                        <div id="mensagem_desktop">
+                            <label for="message">Mensagem</label>   
+                            <textarea rows="4" cols="50" class="field_contato_mensagem_desktop" name="message" placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="btn_contato_desktop">
+                        <button class="contato_submit_desktop" data-button="" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Final do desktop-->
+
+
+</body>
+
+<!--Inicio do footer_mobile--> 
+<footer>
+    <div class="footer_mobile">
+        <h2>SIGA NOSSAS REDES SOCIAIS</h2>
+        <div class="footer_redes_mobile">
+                <a class="facebook_mobile" href="http://facebook.com/frankpayne.livros"><img src="../public/img/Facebook.png"></a>
+                <a class="instagram_mobile" href="http://instagram.com/frankpayne.livros"><img src="../public/img/instagram.png"></a>
+                <a class="twitter_mobile" href="https://twitter.com/FrankPayneBR"><img src="../public/img/twitter.png"></a>
+        </div>
+        <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados. </h4>
+    </div>
+
+<!--Final do footer_mobile-->
+    
+    
+<!--Inicio do footer_desktop--> 
+    <div class="footer_desktop">
+        <h2>SIGA NOSSAS REDES SOCIAIS</h2>
+        <div class="footer_redes_contatos_desktop">
+            <div class="footer_contatos_desktop">
+                <div class="footer_email_desktop">
+                    <img src="../public/img/mail_footer_desktop.png">
+                    <h3>contato@frankpayne.com.br</h3>
+                </div>
+                <div class="footer_tel_desktop">
+                    <img src="../public/img/phone_footer_desktop.png">
+                    <h3>+55 11 98788-1002</h3>
+                </div>
+            </div>
+            <div class="footer_redes_desktop">
+                    <a class="facebook_desktop" href="http://facebook.com/frankpayne.livros"><img src="../public/img/Facebook.png"></a>
+                    <a class="instagram_desktop" href="http://instagram.com/frankpayne.livros"><img src="../public/img/instagram.png"></a>
+                    <a class="twitter_desktop" href="https://twitter.com/FrankPayneBR"><img src="../public/img/twitter.png"></a>
+            </div>
+        </div>
+        <h4>Copyright©2021, FRANK PAYNE. Todos os direitos reservados. </h4>
+    </div>
+
+<!--Final do footer_desktop-->
+
+</footer>
+
+</html>

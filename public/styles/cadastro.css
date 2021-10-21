@@ -269,6 +269,12 @@ body{
     align-self: center;
 }
 
+#form_box_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .cadastro_container_desktop{
     display: flex;
     flex-direction: column;
@@ -299,12 +305,6 @@ body{
     -1px 1px 0px #000,                    
     1px -1px 0px #000,                  
     1px 0px 0px #000;    
-}
-
-#form_box_desktop{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .form_desktop{
